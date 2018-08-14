@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Микрокредиттер</string>
+
+    <string name="json">https://fir-b6b74.firebaseio.com/offers_kz.json</string>
+
+    <string name="ProcentStavka">Пайыздық мөлшерлеме</string>
+    <string name="MaxSumma">Максималды сома</string>
+    <string name="AppName">Микрокредиттер</string>
+    <string name="Rating">Рейтинг</string>
+    <string name="More">Көбірек біліңіз</string>
+    <string name="HoToGet">Микрокредитті қалай алуға болады?</string>
+    <string name="SrokRassm">Қарау мерзімі</string>
+    <string name="Documents">Құжаттар</string>
+    <string name="MaxSrok">Максимум кезең</string>
+    <string name="Oformit">Тапсырыс беру</string>
+    <string name="PodatZayavky">Қарызға өтініш жасаңыз</string>
+    <string name="Zayavka">Тапсырыс жасаңыз</string>
+    <string name="OK">Жақсы рахмет.</string>
+    <string name="bannerText">Косымшада өте танымал және танымал компаниялардың, соның ішінде көптеген МҚҰ, картадан ұсыныстар несие ұсынады. Егер сіз несие немесе микро несие үшін бірнеше қосымшалар толтыру игеру кеңес ықтималдығын арттырады, сондай-ақ өтініш қараған кезде, бұл бірінші көзқарас, өйткені, несие алу алдында сіздің <a href="http://lnk.do/Q2kRna">кредиттік тарихын</a> білу сенімді болу үшін.
+
+    \n\nБас тартудың ықтималдығы, әдетте, 100 ұсынылған өтінімнің 3-і ғана, алайда егер сіз дәл бас тартсаңыз, онда шығуыңыз керек! Сізге <a href="http://lnk.do/o2cV5x">«Несие дәрігері»</a> қызметін пайдалануға кеңес береміз, ол сіздің беделіңізді және сіздің несиелік тарихыңызды қалпына келтіруге көмектеседі.</string>
+    <string name="vnimanie">Назар аударыңыз!</string>
+    <string name="neednetwork">Интернетке қосылу қажет</string>
+</resources>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Mikropożyczki</string>
+
+    <string name="json">https://fir-b6b74.firebaseio.com/offers_pl.json</string>
+
+    <string name="ProcentStavka">Stopa procentowa</string>
+    <string name="MaxSumma">Maksymalna kwota</string>
+    <string name="AppName">Mikropożyczki</string>
+    <string name="Rating">Ocena</string>
+    <string name="More">Dowiedz się więcej</string>
+    <string name="HoToGet">Jak zdobyć mikrokredyt?</string>
+    <string name="SrokRassm">Termin do rozważenia</string>
+    <string name="Documents">Dokumenty</string>
+    <string name="MaxSrok">Maksymalny okres</string>
+    <string name="Oformit">Zamówienie</string>
+    <string name="PodatZayavky">Złóż wniosek o pożyczkę</string>
+    <string name="Zayavka">Złóż zamówienie</string>
+    <string name="OK">Okay, dzięki.</string>
+    <string name="bannerText">W załączniku przedstawiono propozycje pożyczek na mapę wielu MIF, w tym bardzo znanych i popularnych firm. Aby zwiększyć prawdopodobieństwo wydatkowania doradzić, aby wypełnić kilka wniosków o kredyt lub mikro pożyczki, jak również należy <a href="http://lnk.do/Q2kRna">znać swoją historię kredytową</a> przed otrzymaniem pożyczki, ponieważ jest to pierwsze spojrzenie na to po rozpatrzeniu wniosku.
+
+    \n\nPrawdopodobieństwo odmowy jest zwykle tylko 3 na 100 złożonych wniosków, jednak jeśli odmówiono ci dokładnie, to jest wyjście! Zalecamy skorzystanie z usługi <a href="http://lnk.do/o2cV5x">"Lekarz kredytowy"</a>, która pomoże Ci przywrócić dobrą reputację i historię kredytową.</string>
+    <string name="vnimanie">Uwaga!</string>
+    <string name="neednetwork">Wymagane połączenie internetowe</string>
+</resources>

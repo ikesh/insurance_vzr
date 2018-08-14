@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Страховка ВЗР</string>
+
+    <string name="json">https://insurance-83eb4.firebaseio.com/vzr.json</string>
+
+    <string name="ProcentStavka">Процентная ставка</string>
+    <string name="MaxSumma">Максимальная сумма</string>
+    <string name="AppName">Страховка ВЗР</string>
+    <string name="Rating">Рейтинг</string>
+    <string name="More">Подробнее</string>
+    <string name="HoToGet">Как получить микрозайм?</string>
+    <string name="SrokRassm">Срок рассмотрения</string>
+    <string name="Documents">Документы</string>
+    <string name="MaxSrok">Максимальный срок</string>
+    <string name="Oformit">Оформить</string>
+    <string name="OformitPolis">Оформить полис</string>
+    <string name="PodatZayavky">Подать заявку на займ</string>
+    <string name="Zayavka">Заявка</string>
+    <string name="OK">Хорошо, спасибо.</string>
+    <string name="bannerText">В приложении представлены предложения займа на карту многих МФО, среди них очень известные и популярные компании. Для повышения вероятности выдачи займа советуем Вам заполнять сразу несколько заявок на кредит или микрозайм, а так же обязательно <a href="http://lnk.do/Q2kRna">узнать свою кредитную историю</a> перед получением кредита, ведь это первое на что смотрят при рассмотрении заявки.
+
+    \n\nВероятность отказа минимальная обычно это всего 3 из 100 поданных заявок, однако, если отказали именно Вам то есть выход! Советуем воспользоваться услугой <a href="http://lnk.do/o2cV5x">«Кредитный доктор»</a> которая поможет Вам восстановить репутацию и вашу кредитную историю.</string>
+    <string name="vnimanie">Внимание!</string>
+    <string name="neednetwork">Требуется подключение к Интернету</string>
+    <string name="kratkoeopisanie">Краткое описание</string>
+</resources>

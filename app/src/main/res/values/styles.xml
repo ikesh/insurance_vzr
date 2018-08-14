@@ -1,0 +1,34 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/backg</item>
+    </style>
+
+    <style name="WhiteToolBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#007BFF</item>
+        <item name="colorPrimaryDark">#007BFF</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="titleTextColor">#282945</item>
+    </style>
+
+    <style name="Banner" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryDark">#007BFF</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="titleTextColor">#282945</item>
+    </style>
+
+    <style name="infoPage" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryDark">#007BFF</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="titleTextColor">#282945</item>
+    </style>
+
+</resources>

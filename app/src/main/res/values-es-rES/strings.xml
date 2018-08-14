@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Microloans</string>
+
+    <string name="json">https://fir-b6b74.firebaseio.com/offer_es.json</string>
+
+    <string name="ProcentStavka">Tasa de interés</string>
+    <string name="MaxSumma">Cantidad máxima</string>
+    <string name="AppName">Microloans</string>
+    <string name="Rating">Calificación</string>
+    <string name="More">Conozca más</string>
+    <string name="HoToGet">Cómo obtener un micropréstamo?</string>
+    <string name="SrokRassm">Plazo para la consideración</string>
+    <string name="Documents">Documentos</string>
+    <string name="MaxSrok">El período máximo</string>
+    <string name="Oformit">Haga un pedido</string>
+    <string name="PodatZayavky">Solicite un préstamo</string>
+    <string name="Zayavka">Hacer un pedido</string>
+    <string name="OK">Bueno, gracias.</string>
+    <string name="bannerText">En el anexo se ofrece préstamo de sugerencias en el mapa de muchas IMF, incluyendo las compañías muy conocidas y populares. Para aumentar la probabilidad de un préstamo, le recomendamos completar varias solicitudes de préstamo o microcrédito, así como asegurarse <a href="http://lnk.do/Q2kRna">de conocer su historial de crédito</a> antes de recibir un préstamo, porque esto es lo primero que se debe tener en cuenta al considerar una solicitud.
+
+    \n\nLa probabilidad de un rechazo suele ser de solo 3 de cada 100 solicitudes enviadas, sin embargo, si se rechazó con exactitud, ¡entonces hay una salida! Le recomendamos utilizar el servicio <a href="http://lnk.do/o2cV5x">"Credit doctor"</a> que lo ayudará a restablecer su reputación y su historial crediticio.</string>
+    <string name="vnimanie">Atención!</string>
+    <string name="neednetwork">Se requiere conexión a Internet</string>
+</resources>

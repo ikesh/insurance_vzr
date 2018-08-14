@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F4FAFD"
+    android:orientation="vertical"
+    tools:context="com.example.aleksejserduk.vitrina.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/myLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="21dp">
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible">
+
+                <View
+                    android:id="@+id/header_wrapper"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#007BFF"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="11dp" />
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/AppName"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/header_wrapper"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/header_wrapper"
+                    app:layout_constraintVertical_bias="0.533" />
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/id1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="0dp"
+                android:paddingTop="12dp"
+                android:visibility="visible"
+                tools:layout_editor_absoluteX="1dp">
+
+                <View
+                    android:id="@+id/hr"
+                    android:layout_width="280dp"
+                    android:layout_height="1dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="65dp"
+                    android:background="@color/colorAccent"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="@+id/view"
+                    app:layout_constraintStart_toStartOf="@+id/view"
+                    app:layout_constraintTop_toTopOf="@+id/view" />
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="320dp"
+                    android:layout_height="280dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/styleview"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/offer1_logo"
+                    android:layout_width="170dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="16dp"
+                    android:padding="5dp"
+                    app:layout_constraintStart_toStartOf="@+id/view"
+                    app:layout_constraintTop_toTopOf="@+id/view"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/offer1_textInfo1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/kratkoeopisanie"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/view"
+                    app:layout_constraintTop_toBottomOf="@+id/hr" />
+
+                <TextView
+                    android:id="@+id/offer1_textInfo2"
+                    android:layout_width="273dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#282945"
+                    app:layout_constraintEnd_toEndOf="@+id/view"
+                    app:layout_constraintHorizontal_bias="0.387"
+                    app:layout_constraintStart_toStartOf="@+id/view"
+                    app:layout_constraintTop_toBottomOf="@+id/offer1_textInfo1" />
+
+                <Button
+                    android:id="@+id/moreInfo_1"
+                    android:layout_width="135dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:background="@drawable/styleinfo"
+                    android:contentDescription="1"
+                    android:onClick="nextPage"
+                    android:text="@string/More"
+                    android:textAllCaps="false"
+                    android:textColor="#007BFF "
+                    app:layout_constraintBottom_toBottomOf="@+id/view"
+                    app:layout_constraintStart_toStartOf="@+id/view"
+                    tools:enabled="false" />
+
+                <Button
+                    android:id="@+id/offer1_action"
+                    android:layout_width="135dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="164dp"
+                    android:layout_marginStart="164dp"
+                    android:background="@drawable/stylelink"
+                    android:onClick="onClick"
+                    android:text="@string/Oformit"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    app:layout_constraintBottom_toBottomOf="@+id/view"
+                    app:layout_constraintStart_toStartOf="@+id/view" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/id2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="0dp"
+                android:paddingTop="21dp"
+                android:visibility="visible"
+                tools:layout_editor_absoluteX="1dp">
+
+                <View
+                    android:id="@+id/hr2"
+                    android:layout_width="280dp"
+                    android:layout_height="1dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="65dp"
+                    android:background="@color/colorAccent"
+                    app:layout_constraintEnd_toEndOf="@+id/view2"
+                    app:layout_constraintStart_toStartOf="@+id/view2"
+                    app:layout_constraintTop_toTopOf="@+id/view2" />
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="320dp"
+                    android:layout_height="280dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/styleview"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/offer2_logo"
+                    android:layout_width="170dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="16dp"
+                    android:padding="5dp"
+                    app:layout_constraintStart_toStartOf="@+id/view2"
+                    app:layout_constraintTop_toTopOf="@+id/view2"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/offer2_textInfo1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/kratkoeopisanie"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/view2"
+                    app:layout_constraintTop_toBottomOf="@+id/hr2"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/offer2_textInfo2"
+                    android:layout_width="288dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="4dp"
+                    android:textColor="#282945"
+                    app:layout_constraintEnd_toEndOf="@+id/view2"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/view2"
+                    app:layout_constraintTop_toBottomOf="@+id/offer2_textInfo1" />
+
+                <Button
+                    android:id="@+id/offer2_more"
+                    android:layout_width="135dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:background="@drawable/styleinfo"
+                    android:contentDescription="2"
+                    android:onClick="nextPage"
+                    android:text="@string/More"
+                    android:textAllCaps="false"
+                    android:textColor="#007BFF"
+                    app:layout_constraintBottom_toBottomOf="@+id/view2"
+                    app:layout_constraintStart_toStartOf="@+id/view2"
+                    tools:enabled="false" />
+
+                <Button
+                    android:id="@+id/offer2_action"
+                    android:layout_width="135dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="164dp"
+                    android:layout_marginStart="164dp"
+                    android:background="@drawable/stylelink"
+                    android:onClick="onClick"
+                    android:text="@string/Oformit"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    app:layout_constraintBottom_toBottomOf="@+id/view2"
+                    app:layout_constraintStart_toStartOf="@+id/view2" />
+
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/id3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="0dp"
+                android:paddingTop="21dp"
+                android:visibility="visible"
+                tools:layout_editor_absoluteX="1dp">
+
+                <View
+                    android:id="@+id/hr3"
+                    android:layout_width="280dp"
+                    android:layout_height="1dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="65dp"
+                    android:background="@color/colorAccent"
+                    app:layout_constraintEnd_toEndOf="@+id/view3"
+                    app:layout_constraintStart_toStartOf="@+id/view3"
+                    app:layout_constraintTop_toTopOf="@+id/view3" />
+
+                <View
+                    android:id="@+id/view3"
+                    android:layout_width="320dp"
+                    android:layout_height="280dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/styleview"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/offer3_logo"
+                    android:layout_width="170dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="16dp"
+                    android:padding="5dp"
+                    app:layout_constraintStart_toStartOf="@+id/view3"
+                    app:layout_constraintTop_toTopOf="@+id/view3"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/offer3_textInfo1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/kratkoeopisanie"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/view3"
+                    app:layout_constraintTop_toBottomOf="@+id/hr3" />
+
+                <TextView
+                    android:id="@+id/offer3_textInfo2"
+                    android:layout_width="288dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="4dp"
+                    android:textColor="#282945"
+                    app:layout_constraintEnd_toEndOf="@+id/view3"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/view3"
+                    app:layout_constraintTop_toBottomOf="@+id/offer3_textInfo1" />
+
+                <Button
+                    android:id="@+id/moreInfo_3"
+                    android:layout_width="135dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:background="@drawable/styleinfo"
+                    android:contentDescription="3"
+                    android:onClick="nextPage"
+                    android:text="@string/More"
+                    android:textAllCaps="false"
+                    android:textColor="#007BFF "
+                    app:layout_constraintBottom_toBottomOf="@+id/view3"
+                    app:layout_constraintStart_toStartOf="@+id/view3"
+                    tools:enabled="false" />
+
+                <Button
+                    android:id="@+id/offer3_action"
+                    android:layout_width="135dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="164dp"
+                    android:layout_marginStart="164dp"
+                    android:background="@drawable/stylelink"
+                    android:onClick="onClick"
+                    android:text="@string/Oformit"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    app:layout_constraintBottom_toBottomOf="@+id/view3"
+                    app:layout_constraintStart_toStartOf="@+id/view3" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/id4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="0dp"
+                android:paddingTop="21dp"
+                android:visibility="visible"
+                tools:layout_editor_absoluteX="1dp">
+
+                <View
+                    android:id="@+id/hr4"
+                    android:layout_width="280dp"
+                    android:layout_height="1dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="65dp"
+                    android:background="@color/colorAccent"
+                    app:layout_constraintEnd_toEndOf="@+id/view4"
+                    app:layout_constraintStart_toStartOf="@+id/view4"
+                    app:layout_constraintTop_toTopOf="@+id/view4" />
+
+                <View
+                    android:id="@+id/view4"
+                    android:layout_width="320dp"
+                    android:layout_height="280dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/styleview"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/offer4_logo"
+                    android:layout_width="170dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="16dp"
+                    android:padding="5dp"
+                    app:layout_constraintStart_toStartOf="@+id/view4"
+                    app:layout_constraintTop_toTopOf="@+id/view4"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/offer4_textInfo1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/kratkoeopisanie"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/view4"
+                    app:layout_constraintTop_toBottomOf="@+id/hr4" />
+
+                <TextView
+                    android:id="@+id/offer4_textInfo2"
+                    android:layout_width="288dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="4dp"
+                    android:textColor="#282945"
+                    app:layout_constraintEnd_toEndOf="@+id/view4"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/view4"
+                    app:layout_constraintTop_toBottomOf="@+id/offer4_textInfo1" />
+
+                <Button
+                    android:id="@+id/moreInfo_4"
+                    android:layout_width="135dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:background="@drawable/styleinfo"
+                    android:contentDescription="4"
+                    android:onClick="nextPage"
+                    android:text="@string/More"
+                    android:textAllCaps="false"
+                    android:textColor="#007BFF "
+                    app:layout_constraintBottom_toBottomOf="@+id/view4"
+                    app:layout_constraintStart_toStartOf="@+id/view4"
+                    tools:enabled="false" />
+
+                <Button
+                    android:id="@+id/offer4_action"
+                    android:layout_width="135dp"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="164dp"
+                    android:layout_marginStart="164dp"
+                    android:background="@drawable/stylelink"
+                    android:onClick="onClick"
+                    android:text="@string/Oformit"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    app:layout_constraintBottom_toBottomOf="@+id/view4"
+                    app:layout_constraintStart_toStartOf="@+id/view4" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
